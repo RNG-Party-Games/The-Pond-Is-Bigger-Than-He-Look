@@ -19,7 +19,7 @@ public class Food : MonoBehaviour
 
     public void Delete()
     {
-        Destroy(this.gameObject);
+        this.gameObject.SetActive(false);
     }
     
     public void OnTriggerEnter(Collider other)

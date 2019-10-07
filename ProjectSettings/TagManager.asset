@@ -9,6 +9,8 @@ TagManager:
   - FoodSphere
   - WaterCurrent
   - Ground
+  - Checkpoint
+  - EndState
   layers:
   - Default
   - TransparentFX
