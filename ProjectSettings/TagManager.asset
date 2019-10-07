@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Water
   - Aim
+  - FoodSphere
+  - WaterCurrent
+  - Ground
   layers:
   - Default
   - TransparentFX
