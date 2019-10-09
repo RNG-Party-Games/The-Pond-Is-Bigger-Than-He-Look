@@ -320,6 +320,7 @@ public class SkateController : MonoBehaviour
         rb.velocity = Vector3.zero;
         checkpointIndex = 0;
         transform.position = checkpoints[checkpointIndex].GetResetPoint().position;
+        finished = false;
         for (int i = 0; i < checkpoints.Count; ++i)
         {
             checkpoints[i].Reset();
